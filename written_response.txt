@@ -1,0 +1,13 @@
+1. 8 and 3 are passed as arguments, in int add(int a, int b) is where a and b recieve the numbers
+2. the comparison should be performed in larger so the function can do the work while the code doesn't have to repeat
+the same comparison when in main
+3. the variable sum would be the accumulator in this code since it keeps track of the total 
+4. before: 10 inside: 50 after: 10 is my predictions, number remains unchanged because it's copying number, changing x 
+is not going to change number. number and x are not the same variable. pass by pass value means a copy is passed 
+to the function, in case you change the paremeters, it wont change the original variable 
+6A. the prototype and the function have different return types, both need to be using the same return types
+6B. main cant use x because it was declared inside the test function, it turned into a local variable
+so it cant be accessed by main
+6C. there is no return statement, it should have a return result; in the code 
+6D. 5 is going to print because pass by pass values changes the copy, which in this case is x, its not changing n
+so the output would just be 5 instead of 10 

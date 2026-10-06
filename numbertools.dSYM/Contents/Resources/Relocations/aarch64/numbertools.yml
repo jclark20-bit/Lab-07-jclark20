@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/juliann/Documents/GitHub/Lab-07-jclark20/numbertools'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D24, symSize: 0xF8 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D24, symSize: 0xF8 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _countDigits, symObjAddr: 0xF8, symBinAddr: 0x100003E1C, symSize: 0x50 }
+  - { offsetInCU: 0xBB, offset: 0xBB, size: 0x8, addend: 0x0, symName: _sumToN, symObjAddr: 0x148, symBinAddr: 0x100003E6C, symSize: 0x60 }
+  - { offsetInCU: 0xFF, offset: 0xFF, size: 0x8, addend: 0x0, symName: _isEven, symObjAddr: 0x1A8, symBinAddr: 0x100003ECC, symSize: 0x4C }
+...
